@@ -17,20 +17,16 @@ export default defineConfig({
       sidebar: [
         {
           label: "Engineering",
-          items: [
-            // Each item here is one entry in the navigation menu.
-          ],
+          items: [],
         },
         {
           label: "Mental Model",
           items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "목적 지향 사고", slug: "guides/example" },
+            {
+              label: "목적 vs 도메인",
+              slug: "guides/목적vs도메인",
+            },
           ],
-        },
-        {
-          label: "Others",
-          autogenerate: { directory: "reference" },
         },
       ],
     }),
