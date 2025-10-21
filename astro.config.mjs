@@ -19,7 +19,13 @@ export default defineConfig({
           label: "Engineering",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "목적 지향 사고 탈피하기", slug: "guides/example" },
+          ],
+        },
+        {
+          label: "Mental Model",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: "목적 지향 사고", slug: "guides/example" },
           ],
         },
         {
